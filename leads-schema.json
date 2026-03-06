@@ -1,0 +1,15 @@
+{
+  "schema": "agent67.leads.v1",
+  "fields": [
+    {"name": "source", "type": "string", "examples": ["x", "email", "github", "referral"]},
+    {"name": "handle_or_email", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "project", "type": "string"},
+    {"name": "pain", "type": "string"},
+    {"name": "budget_guess_usd", "type": "number"},
+    {"name": "status", "type": "string", "examples": ["new", "contacted", "replied", "qualified", "proposal_sent", "won", "lost"]},
+    {"name": "last_touch_utc", "type": "string"},
+    {"name": "next_action", "type": "string"},
+    {"name": "notes", "type": "string"}
+  ]
+}
